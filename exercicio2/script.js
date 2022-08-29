@@ -1,9 +1,13 @@
 console.log ("Olá mundo!")
 
-let oculos = prompt("Vovê usa oculos?")
-let meias = prompt("Você esta de meias?")
-let deuMortal = prompt("Você ja deu um mortal")
+const pOculos    = ("Vovê usa oculos?")
+const pMeias     = ("Você esta de meias?")
+const pDeuMortal = ("Você ja deu um mortal")
 
-console.log (oculos)
-console.log (meias)
-console.log (deuMortal)
+const rOculos    = prompt(pOculos)
+const rMeias     = prompt(pMeias)
+const rDeuMortal = prompt(pDeuMortal)
+
+console.log (`${pOculos}-${rOculos}`)
+console.log (`${pMeias}-${rMeias}`)
+console.log (`${pDeuMortal}-${rDeuMortal}`)
